@@ -1,0 +1,15 @@
+﻿<Window x:Class="MO_project.DrowTable"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MO_project"
+        mc:Ignorable="d"
+        Title="DrowTable" Height="551.79" Width="469.506">
+    <Grid x:Name="DrowTableGrid">
+        <TextBlock x:Name="Rezolt" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="221,22,0,0" Width="217" Height="78" TextAlignment="Center" FontSize="14"/>
+        <Button x:Name="StepBack" Content="Шаг назад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="83" Margin="336,151,0,0" Height="24" Click="StepBack_Click" RenderTransformOrigin="0.227,0.723"/>
+        <Button Content="Досчитать автоматически" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="290,180,0,0" Height="28" Click="Button_Click"/>
+        <Button x:Name="SimplexMethod" Content="Перейти к симплекс методу" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="290,105,0,0" Height="30" Click="SimplexMethod_Click"/>
+    </Grid>
+</Window>

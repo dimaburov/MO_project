@@ -1,0 +1,21 @@
+C:\Users\MiNotebook\source\repos\MO project\MO project\bin\Debug\MO project.exe.config
+C:\Users\MiNotebook\source\repos\MO project\MO project\bin\Debug\MO project.exe
+C:\Users\MiNotebook\source\repos\MO project\MO project\bin\Debug\MO project.pdb
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project.csprojAssemblyReference.cache
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MainWindow.g.cs
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\App.g.cs
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project_MarkupCompile.cache
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project_MarkupCompile.lref
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MainWindow.baml
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project.g.resources
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO_project.Properties.Resources.resources
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project.csproj.GenerateResource.cache
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project.csproj.CoreCompileInputs.cache
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project.exe
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\MO project.pdb
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\DrowTable.g.cs
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\DrowTable.baml
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\ArtificialBasis.g.cs
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\ArtificialBasis.baml
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\GraphMethod.g.cs
+C:\Users\MiNotebook\source\repos\MO project\MO project\obj\Debug\GraphMethod.baml

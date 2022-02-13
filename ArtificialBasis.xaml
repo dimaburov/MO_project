@@ -1,0 +1,15 @@
+﻿<Window x:Class="MO_project.ArtificialBasis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MO_project"
+        mc:Ignorable="d"
+        Title="SimplexMethod" Height="450" Width="800">
+    <Grid x:Name="GridArtificzlBasis">
+        <TextBox x:Name="Rezolt" HorizontalAlignment="Left" Height="109" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184" Margin="465,27,0,0" TextAlignment="Center"/>
+        <Button Content="Шаг назад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="91" Margin="634,172,0,0" Height="32" Click="StepBack_Click"/>
+        <Button Content="Досчитать автоматически" HorizontalAlignment="Left" VerticalAlignment="Top" Width="130" Margin="618,224,0,0" Height="37" Click="Button_Click"/>
+
+    </Grid>
+</Window>

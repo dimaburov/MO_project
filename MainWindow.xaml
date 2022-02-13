@@ -1,0 +1,76 @@
+﻿<Window x:Class="MO_project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MO_project"
+        mc:Ignorable="d"
+        Title="Решение задачи линейного программирования" Height="509.867" Width="800">
+    <Grid x:Name="myGrid" Margin="0,0,0.333,2.333">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Число переменныx" VerticalAlignment="Top" Margin="21,20,0,0"/>
+        <Button Content="Создать таблицу" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="21,109,0,0" Click="Button_Click"/>
+        <Grid x:Name="TableGrid" Height="467" VerticalAlignment="Top" Margin="301,-10,-20,0"/>
+        <ListBox x:Name="NumberOfVariables" Height="31" VerticalAlignment="Top" Margin="21,52,707,0">
+            <ListBoxItem Content="1" Width="29" Height="25"/>
+            <ListBoxItem Content="2" Width="29" Height="25"/>
+            <ListBoxItem Content="3" Width="29" Height="25"/>
+            <ListBoxItem Content="4" Width="29" Height="25"/>
+            <ListBoxItem Content="5" Width="29" Height="25"/>
+            <ListBoxItem Content="6" Width="29" Height="25"/>
+            <ListBoxItem Content="7" Width="29" Height="25"/>
+            <ListBoxItem Content="8" Width="29" Height="25"/>
+            <ListBoxItem Content="9" Width="29" Height="25"/>
+            <ListBoxItem Content="10" Width="29" Height="25"/>
+            <ListBoxItem Content="11" Width="29" Height="25"/>
+            <ListBoxItem Content="12" Width="29" Height="25"/>
+            <ListBoxItem Content="13" Width="29" Height="25"/>
+            <ListBoxItem Content="14" Width="29" Height="25"/>
+            <ListBoxItem Content="15" Width="29" Height="25"/>
+        </ListBox>
+        <ListBox x:Name="NumberOfVariablesRestrictions" Height="31" VerticalAlignment="Top" Margin="158,52,571,0">
+            <ListBoxItem Content="1" Width="29" Height="25" RenderTransformOrigin="-0.198,0.451"/>
+            <ListBoxItem Content="2" Width="29" Height="25"/>
+            <ListBoxItem Content="3" Width="29" Height="25"/>
+            <ListBoxItem Content="4" Width="29" Height="25"/>
+            <ListBoxItem Content="5" Width="29" Height="25"/>
+            <ListBoxItem Content="6" Width="29" Height="25"/>
+            <ListBoxItem Content="7" Width="29" Height="25"/>
+            <ListBoxItem Content="8" Width="29" Height="25"/>
+            <ListBoxItem Content="9" Width="29" Height="25"/>
+            <ListBoxItem Content="10" Width="29" Height="25"/>
+            <ListBoxItem Content="11" Width="29" Height="25"/>
+            <ListBoxItem Content="12" Width="29" Height="25"/>
+            <ListBoxItem Content="13" Width="29" Height="25"/>
+            <ListBoxItem Content="14" Width="29" Height="25"/>
+            <ListBoxItem Content="15" Width="29" Height="25"/>
+            <ListBoxItem Content="16" Width="29" Height="25"/>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Число ограничений" VerticalAlignment="Top" Margin="160,21,0,0" Width="121" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.309"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <StackPanel x:Name="stackPanel" Margin="10,215,522,-105">
+            <TextBlock TextWrapping="Wrap" Text="Метод решения" Margin="36,0,121.333,0" Height="22" FontSize="14" FontWeight="Bold"/>
+            <RadioButton x:Name="Simplex" GroupName="Method" Content="Симплекс" IsChecked="True" Margin="10,0,133.333,0" Height="23" Click="Simplex_Click" />
+            <RadioButton x:Name="ArtificialBasis" GroupName="Method" Content="Метод искусственного базиса" Margin="10,0,2.333,0" Height="22" />
+            <RadioButton x:Name="Graph" GroupName="Method" Content="Графический" Margin="10,0,2.333,0" Height="22" />
+            <TextBlock TextWrapping="Wrap" Text="Задача оптимизации" Margin="36,0,2.333,0" Height="22" FontSize="14" FontWeight="Bold"/>
+            <RadioButton x:Name="CheckMin" GroupName="Res" Content="Минимизация" IsChecked="True" Margin="10,0,55.333,0" Height="23" />
+            <RadioButton x:Name="CheckMax" GroupName="Res" Content="Максимизации" Margin="10,0,2.333,0" Height="22" />
+            <TextBlock TextWrapping="Wrap" Text="Вид дроби" Margin="36,0,2.333,0" Height="22" FontSize="14" FontWeight="Bold"/>
+            <RadioButton x:Name="OrdinaryFraction" GroupName="Fraction" Content="Обыкновенная" IsChecked="True" Margin="10,0,153.333,0" Height="23" />
+            <RadioButton x:Name="NoFract" GroupName="Fraction" Content="Десятичная" Margin="10,0,2.333,0" Height="22" />
+            <TextBlock TextWrapping="Wrap" Text="Базис" Margin="36,0,2.333,0" Height="22" FontSize="14" FontWeight="Bold"/>
+            <RadioButton GroupName="basis" Content="Искуственный" IsChecked="True" Margin="10,0,121.333,0" Height="23" />
+        </StackPanel>
+        <Button Content="Сохранить в файл задачу" HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" Margin="153,98,0,0" Click="Button_Click_1" Height="25"/>
+        <Button Content="Загрузить задачу из файла" HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" Margin="145,128,0,0" Height="25" Click="Button_Click_2"/>
+        <Button x:Name="Start" Content="Старт" HorizontalAlignment="Left" VerticalAlignment="Top" Width="83" Margin="218,438,0,0" Height="27" Click="Start_Click"/>
+    </Grid>
+</Window>
